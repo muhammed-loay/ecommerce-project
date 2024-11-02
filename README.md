@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# ecommerce-project
+ This is a simple e-commerce website created as part of my learning journey in a React course. The project demonstrates basic React concepts and functionality, such as:  - Fetching data from an API: Products and categories are fetched from a fake store API. - Component-based structure: The project uses reusable components like Product and ProductsList. - State management with Hooks: useState and useEffect hooks are used to manage and update component states. - Category Filtering: Allows users to filter products by category.  This project helped me practice core React skills, including component structure, API integration, and state management.
+>>>>>>> f0f046d9091421fcae7b2cce5250eb66dd3dbe71
