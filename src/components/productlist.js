@@ -33,7 +33,7 @@ function ProductsList (){
         <>
         <h2 className= "text-center p-3">Our Products</h2>
         <div className="container">
-            <div className="row">
+            <div className="row justify-content-center">
             <button
                     onClick={() => getproduct()}
                     className="col-2 btn btn-info">
@@ -54,7 +54,7 @@ function ProductsList (){
                 {products.map((product)=>{
                 return(
                     <>
-                    <div className="col-3" key={product.id}>
+                    <div className="col-3 product-box"  key={product.id}>
                         <Product product={product}/> 
                     </div>
                     

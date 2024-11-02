@@ -88,3 +88,43 @@
 .carousel-indicators .active {
   background-color: #007bff; /* Active indicator color */
 }
+/* Container for each product box */
+.product-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+}
+
+/* Add some space between image and content */
+.product-box img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Price styling */
+.product-price {
+  font-weight: bold;
+  color: #28a745;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Button styling */
+.product-box .btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* Hover effect for product box */
+.product-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}

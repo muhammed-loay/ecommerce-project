@@ -9,7 +9,7 @@ return(
   <div className="card-body">
     <h5 className="card-title">{product.title}</h5>
     <p className="card-text">{product.description}</p>
-    <h5 className="card-title">price:{product.price}$</h5>
+    <h5 className="card-title product-price">price:{product.price}$</h5>
     
     {showButton ?? <Link to={`/product/${product.id}`} className="btn btn-primary">Details</Link> }
     

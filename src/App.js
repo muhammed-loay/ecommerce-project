@@ -5,7 +5,6 @@ import Slider from './components/slider';
 import About from './components/About';
 import { Route , Routes } from 'react-router-dom';
 import Productdetails from './components/Productdetails';
-// import Api from './components/api';
 function App() {
   return (
     <div className="container">
